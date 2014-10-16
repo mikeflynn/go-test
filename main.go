@@ -55,10 +55,6 @@ func query(city string) (weatherData, error) {
 	return d, nil
 }
 
-func hello(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("hello!"))
-}
-
 /* v3 */
 
 type weatherData struct {
